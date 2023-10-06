@@ -1,0 +1,345 @@
+*{
+    overflow-x: hidden;
+}
+.bungkus{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.harga-harga{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.barang{
+    max-width: 35%;
+    min-width: 150px;
+    background-color: rgb(170, 43, 255);
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+.barang-image{
+    max-width: 70%;
+    margin: 0 150% 0 15%;
+}
+.link_pesan{
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px double rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    color: rgb(53, 10, 53);
+    border-radius: 10px;
+}
+.link_pesan:hover{
+    background-color: rgb(69, 66, 255);
+    color: whitesmoke;
+    transition: 0.5s ease-in-out;
+}
+.logo-image{
+    width: 50px;
+    height: 50px;
+}
+.games{
+    margin-top: 20px;
+}
+.game-info{
+    background-color: rgb(132, 14, 211);
+    margin: 0 20px 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.testimoni{
+    max-width: 90%;
+}
+.judul-curency{
+    font-family: 'Exo', sans-serif;
+    overflow: hidden; 
+    color: whitesmoke;
+    text-align: left;
+}
+.curency-desc{
+    background-color: rgb(74, 11, 116);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden; 
+    color: whitesmoke;
+    padding: 10px;
+    font-size: smaller;
+}
+.img-prev{
+    border-radius: 20px;
+}
+.siap{
+    font-family: 'Exo', sans-serif;
+    overflow: hidden; 
+    color: whitesmoke;
+    margin-top: 30px;
+}
+.alasan{
+    font-family: 'Exo', sans-serif;
+    overflow: hidden; 
+    color: whitesmoke;
+}
+.left{
+    text-align: left;
+}
+.paragraf{
+    margin-top: 40px;
+}
+.kiri-kanan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.right{
+    text-align: right;
+}
+.background{
+    background-image: url(background-gif.webp);
+    display: flex;
+}
+.background2{
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(to right, rgb(82, 30, 131), rgb(184, 107, 255));
+}
+.padding{
+    padding: 10%;
+}
+.padding-about{
+    padding: 3%;
+}
+.background3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.logo{
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+.macam-macam-game{
+    border: 1px solid rgb(66, 0, 63);
+    border-radius: 20px;
+    background-color: rgb(139, 21, 139);
+    color: whitesmoke;
+    background: linear-gradient(to right, rgb(119, 20, 119), rgb(82, 0, 158));
+}
+.gif{
+    width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+    .paragraf-text{
+        text-align: left;
+        transition: 0.5s ease;
+    }
+    .kiri, .kanan{
+        margin: 0 10px 20px 10px;
+        width: 43%;
+        min-width: 300px;
+    }
+    .judul-responsive{
+        text-align: left;
+        transition: 0.5s ease;
+    }
+    .barang{
+        max-width: 35%;
+        min-width: 150px;
+        height: 250px;
+        margin: 0 20px 20px 20px;
+    }
+    .background{
+        height: 768px;
+    }
+    .slider{
+        width: 50%;
+        display: flex;
+        margin-left: 25%;
+    }
+    .footer{
+        font-size: medium;
+    }
+    .slime{
+        margin-left: 8%;
+        margin-right: 20px;
+    }
+    .slime{
+        width: 20%;
+    }
+    .ruin{
+        width: 25%;
+    }
+    .andrius{
+        width: 27%;
+    }
+    .macam-macam-game{
+        max-width: 300px;
+    }
+    .about-us-card{
+        max-width: 1000px;
+        transition: 0.5s ease;
+    }
+    .founder-card{
+        max-width: 480px;
+        transition: 0.5s ease;
+    }
+    .game-info{
+        width: 100%;
+        min-width: 90%;
+    }
+    .img-prev{
+        width: 50%;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    .img-pc{
+        margin-top: 20px; 
+        margin-bottom: 28px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 360px) {
+    .paragraf-text{
+        text-align: center;
+        transition: 0.5s ease;
+    }
+    .kiri, .kanan{
+        margin: 0 10px 40px 10px;
+        width: 90%;
+        min-width: 300px;
+    }
+    .game-info{
+        width: 100%;
+        min-width: 94%;
+    }
+    .img-prev{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 3%;
+    }
+    .judul-responsive{
+        text-align: center;
+        transition: 0.5s ease;
+    }
+    .background{
+        width: 100%;
+        height: auto;
+    }
+    .img-pc{
+        margin-top: 20px; 
+        margin-bottom: 28px;
+    }
+    .barang{
+        max-width: 35%;
+        min-width: 145px;
+        height: 250px;
+        margin: 0 25px 20px 25px;
+    }
+    .about-us-card{
+        min-width: 90%;
+        transition: 0.5s ease;
+    }
+    .founder-card{
+        min-width: 90%;
+        transition: 0.5s ease;
+    }
+    .slider{
+        width: 70%;
+        display: flex;
+        margin-left: 15%;
+    }
+    .footer{
+        font-size: medium;
+    }
+    .slime{
+        width: 20%;
+    }
+    .ruin{
+        width: 25%;
+    }
+    .andrius{
+        width: 27%;
+    }
+    .macam-macam-game{
+        max-width: 270px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .paragraf-text{
+        text-align: center;
+        transition: 0.5s ease;
+    }
+    .game-info{
+        width: 100%;
+        min-width: 90%;
+    }
+    .kiri, .kanan{
+        margin: 0 5px 40px 5px;
+        width: 100%;
+        min-width: 320px;
+    }
+    .img-prev{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 3%;
+    }
+    .judul-responsive{
+        text-align: center;
+        transition: 0.5s ease;
+    }
+    .barang{
+        max-width: 35%;
+        min-width: 140px;
+        height: 220px;
+        margin: 0 5px 20px 5px;
+    }
+    .img-pc{
+        margin-top: 20px; 
+        margin-bottom: 10px;
+    }
+    .about-us-card{
+        min-width: 300px;
+        transition: 0.5s ease;
+    }
+    .founder-card{
+        min-width: 300px;
+        transition: 0.5s ease;
+    }
+    .background{
+        width: 100%;
+        height: auto;
+    }
+    .slider{
+        width: 100%;
+        display: flex;
+        margin-left: 1%;
+    }
+    .footer{
+        font-size: medium;
+    }
+    .alasan{
+        font-size: small;
+    }
+    .slime{
+        width: 20%;
+    }
+    .ruin{
+        width: 20%;
+    }
+    .andrius{
+        width: 23%;
+    }
+    .macam-macam-game{
+        max-width: 240px;
+    }
+}
